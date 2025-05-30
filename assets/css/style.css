@@ -4,12 +4,11 @@
     gap: 40px;
     justify-content: center;
     max-width: 500px;
-    margin: 40px auto 0 auto;
+    margin: 20px auto;
     padding: 20px;
 }
 
 .bandeira{
-    border: 3px solid black;
     transition: transform 200ms ease-in-out;
 }
 
@@ -21,7 +20,6 @@
         rgb(182, 164, 211)
 
         );
-    
 }
 
 .barra{
@@ -41,6 +39,8 @@
     padding: 20px;
     background-color: rgb(34 34 34);
     color: white;
+    font-family: "Permanent Marker", cursive;
+    
 }
 .botao{
     background-color: rgb(66, 20, 126);
@@ -70,4 +70,29 @@
 
     max-width: max-content;
     
+}
+
+.bandeira{
+    border: 3px solid black;
+}
+
+.titulo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: rgb(238, 238, 238);
+    font-family: "Permanent Marker";
+}
+
+body{
+    overflow: hidden;
+}
+
+.titulo1{
+    border: 4px solid rgb(98, 0, 255);
+    background-color: rgb(226, 6, 98);
+    border-radius: 1rem;
+    max-width: max-content;
+    display: flex;
+    margin: auto;
 }
