@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.fundobrasil{
+    background: url(/img/brasil/cristoredentor.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+
+
+
+
+.titulodentropais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50vh;
+}
+
+/* Brasil*/
+.titulodentropais2{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #18A30B, #D7D014, #0600AE);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: fontapresentarpais;
+    src: url(/fonts/Kameron-VariableFont_wght.ttf);
+}
+
+.titulodentropais2 h1{
+    font-size: 40px;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    width: 5%;
+    height: 11%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.seta{
+    width: 50px;
+    height: 50px;
+}
+
+/* Turquia */
+.fundoturquia{
+    background: url(/img/turquia/paisagemturquia.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais3{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #a30b0b 50%, #ffffff);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* Angola */
+.fundoangola{
+    background: url(/img/angola/paisagemangola.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais4{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.50turn, #a30b0b 10%,rgb(207, 169, 0) , #141414);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* China */
+.fundochina{
+    background: url(/img/china/paisagemchina.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais5{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #ff0000 40%,rgb(255, 208, 0));
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* Estados Unidos */
+.fundoeua{
+    background: url(/img/eua/paisagemusa.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais6{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #383bd8 20%,rgb(255, 0, 0), rgb(255, 255, 255));
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* India */
+.fundoindia{
+    background: url(/img/india/paisagemindia.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais7{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #ff7b00 ,rgb(4, 85, 22), rgb(255, 255, 255));
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* Itália */
+.fundoitalia{
+    background: url(/img/italia/paisagemitalia.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais8{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #138b13 10%,rgb(207, 42, 42), rgb(255, 255, 255));
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* Japão */
+.fundojapao{
+    background: url(/img/japao/paisagemjapao.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais9{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.25turn, #ffffff,rgb(160, 34, 34));
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}
+
+/* Peru */
+.fundoperu{
+    background: url(/img/japao/paisagemjapao.png) no-repeat center center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titulodentropais10{
+    padding: 1.5% 10%;
+    background: linear-gradient(0.40turn, #ff0000 10%,rgb(255, 255, 255));
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 40px;
+    font-family: fontapresentarpais;
+    z-index: 2;
+}

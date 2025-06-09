@@ -1,0 +1,60 @@
+.container-info{
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+body{
+    background-color: #9F7CBA;
+}
+
+.secao {
+    background-color: #d3d3d3;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+     margin: 10px auto;
+    }
+
+.titulos-info{
+    margin: 10px auto;
+    font-family: Mina;
+}
+
+p{
+    font-family: fontdesc1;
+}
+
+.balaoimagem{
+    width: 70%;
+    height: 70%;
+    
+}
+
+.comidasturquia{
+    display: flex;
+    gap: 30px;
+    width: 30%;
+    height: 30%;
+    
+}
+
+.imagemturquia{
+    width: 70%;
+    height: 70%;
+}
+
+.imagemchina1{
+    width: 70%;
+    height: 70%;
+
+}
