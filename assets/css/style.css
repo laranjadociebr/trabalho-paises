@@ -99,7 +99,7 @@
 
 @font-face {
     font-family: fontcorrida;
-    src: url(../fonts/Corrida.otf);
+    src: url(/fonts/Corrida.otf);
 }
 
 .nomesintegrantes{
